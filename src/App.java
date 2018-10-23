@@ -13,7 +13,7 @@ public class App {
         	System.out.println(o.getClass().getName());
         }
         
-        Collection<Integer> ci = CollectionFactory.getInstance().createInstance(CollectionFactory.Tipo.UNIQUE_ORDERED);
+        Collection<Integer> ci = cf.createInstance(CollectionFactory.Tipo.UNIQUE_ORDERED);
         System.out.println(ci.getClass().getName());
 	}
 
